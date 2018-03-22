@@ -20,6 +20,6 @@ end
 
 x = Weatherio.new
 
-# print x.weather_service.weather_response('bogota')
+print x.weather_service.weather_response('bogota')
 
 # print x.multi_weather_service.multi_weather_response(["524901", "703448"])
