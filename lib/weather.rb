@@ -15,4 +15,4 @@ end
 
 x = Weatherio.new
 
-print x.weather_service
+print x.weather_service.weather_response('bogota')
