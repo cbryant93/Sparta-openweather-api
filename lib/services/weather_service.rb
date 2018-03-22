@@ -11,4 +11,5 @@ class WeatherService
     JSON.parse(self.class.get("/weather?q=#{city}&appid=3c1bcc478fe0361e6d167ef0953e51fe").body)
 
   end
+
 end
